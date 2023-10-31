@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import CommentForm from './components/CommentForm';
 
-function App() {
+
+const App = () => {  
   return (
-    <div className="App">
-      
+    
+      <div className="App">
+        <CommentForm />
     </div>
+    
   );
 }
 
