@@ -1,0 +1,112 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.header {
+  background-color: #6f2296;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navigation ul li {
+  font-weight: bold;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.comment-form {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comment-form input,
+.comment-form textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comment-form button {
+  background-color: #6f2296;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-list {
+  margin: 20px;
+  background-color: #f0effb;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+.comment-list h2 {
+  font-size: 1.2rem;
+  margin: 0 0 10px;
+}
+
+.comment-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-list ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+}
+
+.comment-list ul li:last-child {
+  border-bottom: none;
+}
+
+.comment-list ul li:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.comment-list ul li button {
+  background-color: #c047fd;
+  color: #fff;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
